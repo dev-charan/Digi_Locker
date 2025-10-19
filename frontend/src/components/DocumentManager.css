@@ -1,0 +1,124 @@
+.dm-container {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dm-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dm-alert {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.dm-error {
+  background-color: #ffe6e6;
+  color: #b30000;
+}
+
+.dm-success {
+  background-color: #e6ffe6;
+  color: #007b33;
+}
+
+.dm-upload-form {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dm-upload-form input,
+.dm-upload-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dm-upload-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dm-upload-form button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+.dm-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.dm-search input {
+  width: 250px;
+  padding: 6px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.dm-list {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.dm-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.dm-item h3 {
+  margin: 0;
+}
+
+.dm-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 16px 20px;
+  background-color: #f5f5f5;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-button:disabled {
+  background-color: #bbb;
+}
